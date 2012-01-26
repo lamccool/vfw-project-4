@@ -86,7 +86,8 @@ window.addEventListener ("DOMContentLoaded", function(){
 		toggleControls("on");
 		//write data from local storage to browser.
 		if(localStorage.length === 0){
-			alert("There is no data in Local Storage.");
+			alert("There is no data in Local Storage so default data was added.");
+			autoFillData();
 		}
 		var makeDiv = document.createElement('div');
 		makeDiv.setAttribute("id", "items");
@@ -140,6 +141,16 @@ window.addEventListener ("DOMContentLoaded", function(){
 		deleteLink.innerHTML = deleteText;
 		linksLi.appendChild (deleteLink);
 	}
+	//Auto Populate Local Storage
+	function autoFillData(){
+		for(var n in json){
+			var id = Math.floor(Math.random()*100000001);
+			localStorage.setItem(id,JSON.stringify(json[n]));
+		}
+	
+	}
+	
+
 	
 	function editItem (){
 		//grab date from local storage

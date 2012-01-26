@@ -10,7 +10,7 @@ var json = {
 		},
 	"gift2": {
 		"category":["Category:", "Movies & Games"], 
-		"comments":["Gift Description:", "Super 8 Bluray"],
+		"comments":["Gift Description:", "Bluray"],
 		"amount":["Quantity:","1"],
 		"location":["Where To Buy:","Online"],
 		"store":["Store Name:","Amazon"],
