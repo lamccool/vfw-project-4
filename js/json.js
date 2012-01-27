@@ -9,7 +9,7 @@ var json = {
 		"date":["Date Added:","2011-12-01"]
 		},
 	"gift2": {
-		"category":["Category:", "Movies & Games"], 
+		"category":["Category:", "Entertainment"], 
 		"comments":["Gift Description:", "Bluray"],
 		"amount":["Quantity:","1"],
 		"location":["Where To Buy:","Online"],
@@ -18,8 +18,8 @@ var json = {
 		"date":["Date Added:","2011-11-27"]
 		},
 	"gift3": {
-		"category":["Category:", "Clothing & Accessories"], 
-		"comments":["Gift Description:", "Skinny Jeans"],
+		"category":["Category:", "Apparel"], 
+		"comments":["Gift Description:", "Jeans"],
 		"amount":["Quantity:","2"],
 		"location":["Where To Buy:","Online"],
 		"store":["Store Name:","Delias"],
